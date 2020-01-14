@@ -1,0 +1,106 @@
+body {
+	background-color: #FFDE59;
+}
+
+.links {
+	padding-right: 8px;
+}
+
+.footerlinks {
+	text-decoration: underline;
+	line-height: 1.4;
+	color: black;
+}
+
+#wrapper {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+
+	margin: 0 auto;
+	padding: 0;
+
+	height: auto;
+	width: 360px;
+}
+
+.section-landing {
+	height: 100vh;
+	width: 360px;
+
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.section-content {
+	height: auto;
+	width: 360px;
+}
+
+.spacer {
+	height: 10pt;
+	width: 360px;
+}
+
+.link-text {
+  background-color: black;
+  color: white;
+  margin: 8px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.font-heading {
+	font-family: LeagueSpartan;
+	font-size:25pt;
+}
+
+.font-break {
+	font-family: LeagueSpartan;
+	font-size:25pt;
+}
+
+.font-subheading {
+	font-family: OpenSans;
+	font-weight: bold;
+	font-size: 12pt;
+}
+
+.font-body {
+	font-family: OpenSans;
+	font-size: 12pt;
+}
+
+.font-footer {
+	font-family: OpenSans;
+	font-size: 8pt;
+
+	text-decoration: none;
+	color: gray;
+}
+
+.color-white {
+	color: white;
+}
+
+.color-black {
+	color: black;
+}
+
+@media (max-width: 360px) {
+	#wrapper {
+		width: 100%;
+	}
+}
+
+@font-face {	
+	font-family: LeagueSpartan;
+	font-weight: bold;
+	src: url("../fonts/league-spartan/LeagueSpartan-Bold.otf") format("opentype");
+}
+
+@font-face {	
+	font-family: OpenSans;
+	src: url("../fonts/open-sans/OpenSans-Regular.ttf") format("truetype");
+}
