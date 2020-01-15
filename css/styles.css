@@ -6,6 +6,11 @@ body {
 	padding-right: 8px;
 }
 
+.link-img {
+	height: 32px;
+	width: 32px;
+}
+
 .footerlinks {
 	text-decoration: underline;
 	line-height: 1.4;
