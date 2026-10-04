@@ -1,6 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+	<meta charset="utf-8">
+	<meta name="description" content="Aaron Bautista, a software engineer based in Singapore, building mobile, web, backend, and AI systems for EV charging and solar products.">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Aaron Bautista</title>
 
@@ -10,48 +12,89 @@
 	<div id="wrapper">
 		<div class="section-landing">
 			<div class="font-heading color-black">Hey there.</div>
-			<div class="font-heading color-black">I'm Aaron Bautista.</div>
-			<div class="font-heading color-white">Software Developer.</div>
+			<h1 class="font-heading color-black">I'm Aaron Bautista.</h1>
+			<div class="font-heading color-white">Software Engineer.</div>
+			<p class="font-body color-black">Based in Singapore. Building mobile, web, backend, and AI systems.</p>
 			<div class="spacer"></div>
-			
+
 			<div class="font-body color-black">
-				<a href="https://drive.google.com/file/d/1_bEIvoqaanEwMkK9cPj80tQTZiEBmxqF/view?usp=sharing" target="_blank" class="links"><img src="images/resume.png" class="link-img"></a> 
-				<a href="https://www.linkedin.com/in/aaron-bautista-6300b1158" target="_blank" class="links"><img src="images/linkedin.png" class="link-img"></a> 
-				<a href="https://www.github.com/aaronbau" target="_blank" class="links"><img src="images/github.png" class="link-img"></a> 
+				<a href="https://drive.google.com/file/d/1_bEIvoqaanEwMkK9cPj80tQTZiEBmxqF/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="links"><img src="images/resume.png" class="link-img" alt="Résumé"></a>
+				<a href="https://www.linkedin.com/in/aaronbau" target="_blank" rel="noopener noreferrer" class="links"><img src="images/linkedin.png" class="link-img" alt="LinkedIn"></a>
+				<a href="https://www.github.com/aaronbau" target="_blank" rel="noopener noreferrer" class="links"><img src="images/github.png" class="link-img" alt="GitHub"></a>
 			</div>
+			<p class="font-body"><a class="link-text color-black" href="mailto:aaronnolbautista@gmail.com">aaronnolbautista@gmail.com</a></p>
 		</div>
 
 		<div class="font-break color-white">-</div>
 
+		<section class="section-content">
+			<h2 id="about" class="font-heading color-white">About</h2>
+			<p class="font-body color-black">I combine hands-on software development with technical leadership across mobile, web, and backend systems. My work spans EV charging and solar products, including an app supporting approximately 15,000 users and a charging platform supporting approximately 300 chargers across three countries.</p>
+			<p class="font-body color-black">I led development of Kigo Bot, combining retrieval-augmented generation (RAG) and custom Model Context Protocol (MCP) tools for customer support, charger diagnosis, and remediation. Previously, I contributed to Novade’s web and mobile products within a portfolio serving more than 100,000 users across 20 countries.</p>
+			<p class="font-body color-black">I have led adoption of engineering best practices and AI-assisted development workflows, with experience in technical direction, mentoring, hiring, and deployment and release pipelines.</p>
+		</section>
+
 		<div class="section-content">
 			<div class="spacer"></div>
-			<div class="font-heading color-white">Work Experience</div>
+			<h2 id="experience" class="font-heading color-white">Work Experience</h2>
 			<div class="spacer"></div>
 			<div class="spacer"></div>
 
-			<div class="font-heading color-black">Novade Solutions</div>
-			<div class="font-subheading color-black">Application Developer</div>
-			<div class="font-subheading color-black">October 2020 - Present</div>
+			<article class="experience">
+				<h3 class="font-heading color-black">Kigo App</h3>
+				<p class="font-subheading color-black">Software Engineer<br>November 2023 - Present<br>Singapore</p>
+			<p class="font-body color-black">Led frontend engineering and implemented and maintained backend features for Kigo, an OCPI-compliant e-mobility service provider (EMSP) solution supporting approximately 15,000 users. Oversaw technical direction, delivery planning, code reviews, mentoring, and deployment and release pipelines.</p>
+				<h4 class="font-subheading color-black">Kigo App</h4>
+			<p class="font-body color-black">Led the rebuild of an EV charging app for drivers using Flutter, Riverpod, and Firebase.</p>
+				<h4 class="font-subheading color-black">Kigo Dashboard</h4>
+			<p class="font-body color-black">Led development and launch of the staff dashboard for managing drivers, charging sessions, and corporate drivers using React, MUI, React Query, and Nx.</p>
+				<h4 class="font-subheading color-black">Kigo API</h4>
+			<p class="font-body color-black">Implemented and maintained backend features powering the app and dashboard using Spring, MySQL, and Exposed. Deployed services on Google Cloud using Docker and Terraform.</p>
+				<h4 class="font-subheading color-black">Kigo Bot</h4>
+			<p class="font-body color-black">Led development and designed an AI support and diagnostics assistant using Node.js, TypeScript, Claude, Pinecone RAG, and Intercom messaging integration. Built a custom MCP server connecting the assistant to the charger management platform for diagnosis and remediation. Reduced human intervention for issues starting or stopping charging sessions by an estimated 30%, with approval required for selected actions.</p>
+			</article>
+
+			<article class="experience">
+				<h3 class="font-heading color-black">Eigen Energy</h3>
+				<p class="font-subheading color-black">Software Engineer<br>November 2023 - Present<br>Singapore</p>
+			<p class="font-body color-black">Led frontend engineering and implemented and maintained backend features for a Charging Station Management System (CSMS), an OCPI-compliant Charge Point Operator (CPO) platform supporting approximately 300 chargers across Singapore, Malaysia, and Thailand. Oversaw technical direction, delivery planning, code reviews, mentoring, hiring decisions, and deployment and release pipelines.</p>
+				<h4 class="font-subheading color-black">CSMS Dashboard</h4>
+			<p class="font-body color-black">Led development and launch of the staff dashboard for managing EV chargers and charging operations using React, MUI, Socket.io, and React Query. Partnered with product management and UX designers to define and deliver features.</p>
+				<h4 class="font-subheading color-black">CSMS API</h4>
+			<p class="font-body color-black">Implemented and maintained backend features using Spring, MySQL, Exposed, and Kafka. Deployed services on Google Cloud using Docker, Jsonnet, Istio, and Terraform.</p>
+				<h4 class="font-subheading color-black">CSMS Charger Hub</h4>
+			<p class="font-body color-black">Implemented and maintained features for the Go-based charger communication service implementing Open Charge Point Protocol (OCPP), connecting EV chargers to the management platform.</p>
+				<h4 class="font-subheading color-black">Eigen+ App</h4>
+			<p class="font-body color-black">Led engineering for a home solar monitoring and EV charging app with self-service onboarding using Flutter, Riverpod, and Firebase. Backend services used Spring, MySQL, and Exposed, deployed on Google Cloud using Docker and Terraform.</p>
+				<h4 class="font-subheading color-black">Solar Asset Dashboard</h4>
+			<p class="font-body color-black">Implemented and maintained features for a dashboard displaying energy data collected from solar panels using React, Ant Design, React Query, and Nx.</p>
+				<h4 class="font-subheading color-black">Solar Asset API</h4>
+			<p class="font-body color-black">Implemented and maintained backend features using Spring, MySQL, Exposed, and VictoriaMetrics. Deployed services on Google Cloud using Docker and Terraform.</p>
+			</article>
+
+			<h3 class="font-heading color-black">Novade Solutions</h3>
+			<div class="font-subheading color-black">Software Developer</div>
+			<div class="font-subheading color-black">October 2020 - October 2023</div>
 			<div class="spacer"></div>
-			<div class="font-body color-black">Wrote and maintained features for a field management application using Flutter (web & mobile) and TypeScript, NestJS, GraphQL, TypeORM for the backend while using PostgreSQL as the database management system.</div>
+			<div class="font-body color-black">Contributed to the launch and ongoing development of Novade Lite using Flutter, with backend services built using TypeScript, NestJS, GraphQL, TypeORM, and PostgreSQL. Implemented Stripe promotional-code support.</div>
 			<div class="spacer"></div>
 			<div class="font-body color-black">Worked with a team to develop a PDF generation service using NodeJS, TypeScript and ReactJS.</div>
 			<div class="spacer"></div>
-			<div class="font-body color-black">Worked closely with the product team to create, refine, and improve features.</div>
+			<div class="font-body color-black">Contributed to Novade Lite and selected Novade Enterprise modules within a product portfolio serving more than 100,000 users across 20 countries. Collaborated with product teams, maintained applications, and participated in code reviews. Implemented web and mobile features across Project Center, Maintenance, Forms, and Assets using TypeScript and Upvise.</div>
 			<div class="spacer"></div>
 			<div class="spacer"></div>
 
-			<div class="font-heading color-black">Accenture Advanced Technology Centers</div>
+			<h3 class="font-heading color-black">Accenture</h3>
 			<div class="font-subheading color-black">Associate Software Engineer</div>
-			<div class="font-subheading color-black">March 2020 - October 2020</div>
+			<div class="font-subheading color-black">May 2020 - October 2020</div>
 			<div class="spacer"></div>
-			<div class="font-body color-black">Bootcamp - Training for Java, Web Development, Spring Framework (MVC, JPA, Security, Rest, Boot), and Microservice architecture.</div>
+			<div class="font-body color-black">Completed technical training in Java, JSP, Hibernate, and the Spring ecosystem, including MVC, JPA, Security, REST APIs, and Spring Boot. Gained hands-on exposure to microservice architecture and software delivery practices.</div>
 			<div class="spacer"></div>
 			<div class="font-body color-black">Accenture Technology Analyst School - Training for delivery methods and development frameworks.</div>
 			<div class="spacer"></div>
 			<div class="spacer"></div>
 
-			<div class="font-heading color-black">The UnionBank of the Philippines</div>
+			<h3 class="font-heading color-black">The UnionBank of the Philippines</h3>
 			<div class="font-subheading color-black">Intern</div>
 			<div class="font-subheading color-black">January 2018 - March 2018</div>
 			<div class="spacer"></div>
@@ -62,8 +105,8 @@
 			<div class="font-body color-black">Championed the development of the mentioned system against several committees.</div>
 			<div class="spacer"></div>
 			<div class="spacer"></div>
-		
-			<div class="font-heading color-black">The Philippine Stock Exchange Incorporated</div>
+
+			<h3 class="font-heading color-black">The Philippine Stock Exchange Incorporated</h3>
 			<div class="font-subheading color-black">Intern</div>
 			<div class="font-subheading color-black">December 2017 - January 2018</div>
 			<div class="spacer"></div>
@@ -80,18 +123,18 @@
 
 		<div class="section-content">
 			<div class="spacer"></div>
-			<div class="font-heading color-white">Education</div>
+			<h2 id="education" class="font-heading color-white">Education</h2>
 			<div class="spacer"></div>
 			<div class="spacer"></div>
 
-			<div class="font-heading color-black">De La Salle University-Manila</div>
+			<h3 class="font-heading color-black">De La Salle University-Manila</h3>
 			<div class="font-subheading color-black">August 2015 - December 2019</div>
 			<div class="spacer"></div>
 			<div class="font-body color-black">Bachelor of Science in Computer Science Specializing in Software Technology</div>
 			<div class="spacer"></div>
 			<div class="spacer"></div>
 
-			<div class="font-heading color-black">Don Bosco Technical Institute-Makati</div>
+			<h3 class="font-heading color-black">Don Bosco Technical Institute-Makati</h3>
 			<div class="font-subheading color-black">June 2004 - March 2015</div>
 			<div class="spacer"></div>
 			<div class="font-body color-black">Industrial Drafting Technology Program</div>
@@ -103,61 +146,82 @@
 
 		<div class="section-content">
 			<div class="spacer"></div>
-			<div class="font-heading color-white">Projects</div>
+			<h2 id="projects" class="font-heading color-white">Projects</h2>
 			<div class="spacer"></div>
 			<div class="spacer"></div>
 
-			<div class="font-heading color-black">Vi Tutoring System</div>
+			<h3 class="font-heading color-black">Vi Tutoring System</h3>
 			<div class="spacer"></div>
-			<a href="https://youtu.be/lACX918pZzk?t=2042" target="_blank" class="link-text color-black font-body">Video Demo</a> 
+			<a href="https://youtu.be/lACX918pZzk?t=2042" target="_blank" rel="noopener noreferrer" class="link-text color-black font-body">Video Demo</a>
 			<div class="spacer"></div>
 			<div class="font-body color-black">A mathematics peer-tutor (DialogFlow, NodeJS) with a robotic embodiment-PaPeRo (C++) and a web interface (NodeJS, ExpressJS, MongoDB).</div>
 			<div class="spacer"></div>
 			<div class="spacer"></div>
 
-			<div class="font-heading color-black">FruitBasket</div>
+			<h3 class="font-heading color-black">FruitBasket</h3>
 			<div class="spacer"></div>
 			<div class="font-body color-black">An e-commerce web application (NodeJS, ExpressJS, Pug, MongoDB) that facilitates the management and selling of fruits.</div>
 			<div class="spacer"></div>
 			<div class="spacer"></div>
 
-			<div class="font-heading color-black">Cravate</div>
+			<h3 class="font-heading color-black">Cravate</h3>
 			<div class="spacer"></div>
-			<a href="https://github.com/aarontbautista/tie-novelty-shop" target="_blank" class="link-text color-black font-body">GitHub</a> 
+			<a href="https://github.com/aarontbautista/tie-novelty-shop" target="_blank" rel="noopener noreferrer" class="link-text color-black font-body">GitHub</a>
 			<div class="spacer"></div>
 			<div class="font-body color-black">An e-commerce web application (Java Servlets, JSP, MySQL) that facilitates the management and selling of ties.</div>
 			<div class="spacer"></div>
 			<div class="spacer"></div>
 
-			<div class="font-heading color-black">Coach</div>
+			<h3 class="font-heading color-black">Coach</h3>
 			<div class="spacer"></div>
 			<div class="font-body color-black">An android application (Java, Firebase) which allows users to create and view fitness routines.</div>
 			<div class="spacer"></div>
 			<div class="spacer"></div>
 		</div>
-		
+
 		<div class="font-break color-white">-</div>
-		
+
 		<div class="section-content">
 			<div class="spacer"></div>
-			<div class="font-heading color-white">Publications</div>
+			<h2 id="publications" class="font-heading color-white">Publications</h2>
 			<div class="spacer"></div>
 			<div class="spacer"></div>
 
-			<div class="font-heading color-black">Towards the Design of a Robot Peer-Tutor to Help Children Learn Math Problem-Solving</div>
+			<h3 class="font-heading color-black">Towards the Design of a Robot Peer-Tutor to Help Children Learn Math Problem-Solving</h3>
 			<div class="spacer"></div>
 			<div class="font-body color-black">Asia-Pacific Society for Computers in Education (APSCE) - November 23, 2020</div>
 			<div class="spacer"></div>
-			<a href="https://apsce.net/upfile/icce2020/ICCE2020-Proceedings-Vol2-FinalUpdated.pdf" target="_blank" class="link-text color-black font-body">See Publication</a> 
+			<a href="https://apsce.net/upfile/icce2020/ICCE2020-Proceedings-Vol2-FinalUpdated.pdf" target="_blank" rel="noopener noreferrer" class="link-text color-black font-body">See Publication</a>
 			<div class="spacer"></div>
 			<div class="spacer"></div>
 		</div>
-		
+
 		<div class="font-break color-white">-</div>
 
 		<div class="spacer"></div>
 		<div class="spacer"></div>
-		
+
+		<section class="section-content">
+			<h2 id="skills" class="font-heading color-white">Skills &amp; Background</h2>
+			<h3 class="font-subheading color-black">Top skills</h3>
+			<p class="font-body color-black">Google Cloud Platform (GCP), Kotlin, Go</p>
+			<h3 class="font-subheading color-black">Languages</h3>
+			<p class="font-body color-black">Filipino and English: native or bilingual proficiency.</p>
+			<h3 class="font-subheading color-black">Certifications</h3>
+			<ul class="font-body color-black">
+				<li>Developing Emotional Intelligence</li>
+				<li>Java Programming Masterclass for Software Developers</li>
+				<li>Managing Pressure and Stress to Optimize Your Performance</li>
+				<li>The Web Developer Bootcamp</li>
+				<li>Navigating Other People’s Emotions</li>
+			</ul>
+			<h3 class="font-subheading color-black">Honors &amp; Awards</h3>
+			<ul class="font-body color-black">
+				<li>Jose Rizal Second Honors Certificate</li>
+				<li>OVCRI Faculty and Students’ Research Recognition</li>
+			</ul>
+		</section>
+
 		<div class="font-footer color-black">Resources: </div>
 		<div class="font-footer color-black">Icons made by <a href="https://www.flaticon.com/authors/freepik" class="footerlinks" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" class="footerlinks" title="Flaticon">www.flaticon.com</a></div>
 		<div class="font-footer color-black">Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" class="footerlinks" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" class="footerlinks" title="Flaticon">www.flaticon.com</a></div>
