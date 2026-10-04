@@ -2,7 +2,7 @@
 
 Static personal website hosted on GitHub Pages at https://aaronbau.github.io.
 
-Professional content was refreshed from the supplied October 2026 LinkedIn profile export (`Profile-14.pdf`). Approximate reach and estimated impact retain their qualifiers. Existing personal projects, education details, and publication links are retained. The résumé link points to the owner’s selected Google Drive document.
+Professional content was refreshed from the supplied October 2026 LinkedIn profile export (`Profile-15.pdf`). Approximate reach and estimated impact retain their qualifiers. Existing personal projects, education details, and publication links are retained. The résumé link points to the owner’s selected Google Drive document.
 
 ## Local preview
 
